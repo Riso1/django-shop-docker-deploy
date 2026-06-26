@@ -1,0 +1,23 @@
+[project]
+name = "prod"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Riso1",email = "93641234+Riso1@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "asgiref (==3.6.0)",
+    "django (==4.2)",
+    "django-filter (==22.1)",
+    "djangorestframework (==3.14.0)",
+    "pytz (==2022.7.1)",
+    "sqlparse (==0.4.2)",
+    "pillow (>=12.2.0,<13.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
